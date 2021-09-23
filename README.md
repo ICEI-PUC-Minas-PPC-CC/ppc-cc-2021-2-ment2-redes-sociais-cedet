@@ -1,7 +1,7 @@
 # AUTOMATIZAÇÃO DO PROCESSO SELETIVO CEDET
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
-`Disciplina: NOME DA DISCIPLINA`
+`Disciplina: MENTORING II`
 `2021 - Semestre 2`
 
 ## Integrantes
