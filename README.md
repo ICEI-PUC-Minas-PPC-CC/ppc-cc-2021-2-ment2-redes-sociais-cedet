@@ -6,7 +6,7 @@
 
 ## Integrantes
 
-- Thiago Marques
+- Thiago Marques (35 99749-4728)
 - Otavio Canedo
 - Lucas
 - Luiz Guilherme
