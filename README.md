@@ -2,7 +2,7 @@
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
 `Disciplina: NOME DA DISCIPLINA`
-`2021 - Semestre 1`
+`2021 - Semestre 2`
 
 ## Integrantes
 
