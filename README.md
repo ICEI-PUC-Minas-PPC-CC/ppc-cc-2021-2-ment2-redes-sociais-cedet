@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# AUTOMATIZAÇÃO DO PROCESSO SELETIVO CEDET
 
 `PPC-CC: PUC Poços de Caldas - Ciência da Computação`
 `Disciplina: NOME DA DISCIPLINA`
@@ -7,9 +7,10 @@
 ## Integrantes
 
 - Thiago Marques (35 99749-4728)
-- Otavio Canedo
-- Lucas
-- Luiz Guilherme
+- Otavio Canedo (35 99906-0073)
+- Lucas Eduardo (19 99187-9903)
+- Luiz Guilherme (35 98867-4029)
+- Leticia Mattoso (35 98822-5249)
 
 ## Professor
 
