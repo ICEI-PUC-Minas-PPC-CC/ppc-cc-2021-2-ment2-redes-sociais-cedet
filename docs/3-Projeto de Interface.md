@@ -29,22 +29,22 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-  <a href="https://ibb.co/H7rZY7t"><img src="https://i.ibb.co/cJNqtJ6/1.png" alt="1" border="0"></a>
+  <img src="https://i.ibb.co/2tBJ3qq/1.png" alt="1" border="0">
  
   #
  
-  <a href="https://ibb.co/QFN2k03"><img src="https://i.ibb.co/1fqDMct/2.png" alt="2" border="0"></a>
+  <img src="https://i.ibb.co/cXhC9Q7/2.png" alt="2" border="0">
  
  #
  
-  <a href="https://ibb.co/k4vjWdB"><img src="https://i.ibb.co/sKznMBR/3.png" alt="3" border="0"></a>
+  <img src="https://i.ibb.co/pfbp3mT/3.png" alt="3" border="0">
  
  #
  
-  <a href="https://ibb.co/HY4Fvf7"><img src="https://i.ibb.co/xGLCvth/4.png" alt="4" border="0"></a>
+  <img src="https://i.ibb.co/d5jxZhk/4.png" alt="4" border="0">
  
  #
  
-  <a href="https://ibb.co/pwknTJj"><img src="https://i.ibb.co/54J23Bh/5.png" alt="5" border="0"></a>
+ <img src="https://i.ibb.co/vkwdp4p/5.png" alt="5" border="0">
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
