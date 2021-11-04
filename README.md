@@ -6,11 +6,11 @@
 
 ## Integrantes
 
-- Thiago Marques (35 99749-4728)
-- Otavio Canedo (35 99906-0073)
-- Lucas Eduardo (19 99187-9903)
-- Luiz Guilherme (35 98867-4029)
-- Leticia Mattoso (35 98822-5749)
+- Thiago Marques 
+- Otavio Canedo 
+- Lucas Eduardo 
+- Luiz Guilherme 
+- Leticia Mattoso 
 
 ## Professor
 
