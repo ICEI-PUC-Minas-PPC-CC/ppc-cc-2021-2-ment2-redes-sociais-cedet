@@ -1,0 +1,5 @@
+'pt-BR':
+  attributes:
+    buttons:
+      confirmation: Confirmar Alterações
+      ignore: Descartar Alterações

@@ -1,0 +1,8 @@
+'pt-BR':
+  attributes:
+    placeholders:
+      question_description: Descrição da Pergunta...
+      subject_description: Descrição do assunto...
+      admin_email: Email do Adminstrador
+      new_password: Insira sua nova senha aqui
+      new_password_confirmation: Confirme a senha anterior
