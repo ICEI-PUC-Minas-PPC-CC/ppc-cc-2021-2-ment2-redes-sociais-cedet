@@ -14,8 +14,8 @@ Rails.application.routes.draw do
   end
   devise_for :admins
   
-  # get 'inicio', to: 'site/admins_backoffice_admins_path#index'
+  get 'inicio', to: 'admins_backoffice/admins#index'
   
-  # root to: 'site/admins_backoffice_admins_path#index'
+  root to: 'admins_backoffice/admins#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
