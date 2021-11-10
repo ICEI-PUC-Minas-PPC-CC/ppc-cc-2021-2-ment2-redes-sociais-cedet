@@ -13,7 +13,7 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
   def create
     @admin = Admin.new(params_admin)
     if @admin.save
-      redirect_to admins_backoffice_admins_path, notice: 'Adminstrador cadastrado com sucessso!'
+      redirect_to admins_backoffice_admins_path, notice: 'Usuário cadastrado com sucessso!'
     else
       render :new
     end
@@ -26,7 +26,7 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
     params_admin 
 
     if @admin.update(params_admin)
-      redirect_to admins_backoffice_admins_path, notice: 'Adminstrador atualizado com sucessso!'
+      redirect_to admins_backoffice_admins_path, notice: 'Usuário atualizado com sucessso!'
     else
       render :edit
     end
@@ -34,7 +34,7 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
   
   def destroy
     if @admin.destroy
-      redirect_to admins_backoffice_admins_path, notice: "Administrador excluído com sucesso!"
+      redirect_to admins_backoffice_admins_path, notice: 'Usuário excluído com sucesso!'
     else
       render :index
     end
