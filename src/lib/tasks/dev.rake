@@ -21,7 +21,7 @@ namespace :dev do
   desc "Adiciona o administrador padrão"
   task add_default_admin: :environment do
     Admin.create!(
-      email: 'admin@admin.com',
+      email: 'admin@cedet.com.br',
       password: DEFAULT_PASSWORD,
       password_confirmation: DEFAULT_PASSWORD
     )
