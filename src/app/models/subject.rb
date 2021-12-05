@@ -1,4 +1,4 @@
 class Subject < ApplicationRecord
-  has_many :questions
+  belongs_to :aluno
   paginates_per 10
 end

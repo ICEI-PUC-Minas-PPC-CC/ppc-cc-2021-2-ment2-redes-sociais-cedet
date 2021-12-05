@@ -5,9 +5,11 @@ Rails.application.routes.draw do
     get 'subject/:subject_id/:subject', to: 'search#subject', as: 'search_subject'
     post 'answer', to: 'answer#question'
   end
-
+  
   namespace :admins_backoffice do
     get 'welcome/index' # Deshboard
+    resources :students
+    resources :highlights, only: :index
     resources :admins   # Admins
     resources :subjects # Assuntos
     resources :questions # Perguntas

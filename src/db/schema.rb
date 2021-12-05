@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_10_184218) do
+ActiveRecord::Schema.define(version: 2021_12_05_200037) do
 
   create_table "admins", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -24,28 +24,7 @@ ActiveRecord::Schema.define(version: 2021_09_10_184218) do
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
   end
 
-  create_table "answers", force: :cascade do |t|
-    t.text "description", null: false
-    t.integer "question_id"
-    t.boolean "correct", default: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["question_id"], name: "index_answers_on_question_id"
-  end
-
-  create_table "questions", force: :cascade do |t|
-    t.text "description", null: false
-    t.integer "subject_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["subject_id"], name: "index_questions_on_subject_id"
-  end
-
-  create_table "subjects", force: :cascade do |t|
-    t.boolean "correct", default: false
-    t.integer "id_professor"
-    t.string "nome_professor"
-    t.string "escola"
+  create_table "alunos", force: :cascade do |t|
     t.string "nome_aluno1_p1"
     t.string "nome_aluno2_p1"
     t.string "nome_aluno1_p2"
@@ -146,6 +125,38 @@ ActiveRecord::Schema.define(version: 2021_09_10_184218) do
     t.string "nome_aluno2_p49"
     t.string "nome_aluno1_p50"
     t.string "nome_aluno2_p50"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "answers", force: :cascade do |t|
+    t.text "description", null: false
+    t.integer "question_id"
+    t.boolean "correct", default: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["question_id"], name: "index_answers_on_question_id"
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.text "description", null: false
+    t.integer "subject_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["subject_id"], name: "index_questions_on_subject_id"
+  end
+
+  create_table "students", force: :cascade do |t|
+    t.integer "id_professor"
+    t.string "student_name", null: false
+    t.string "teacher_name", null: false
+    t.string "school_name", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "subjects", force: :cascade do |t|
+    t.boolean "correct", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
