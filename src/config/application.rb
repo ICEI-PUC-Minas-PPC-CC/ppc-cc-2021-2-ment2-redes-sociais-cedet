@@ -31,7 +31,7 @@ module CEDET
     # Don't generate system test files.
     config.generators.system_tests = nil
     
-    config.web_console.whitelested_ips = '177.191.103.212'
+    # config.web_console.whitelested_ips = '177.191.103.212'
 
   end
 end
